@@ -7,6 +7,7 @@ let playerScore = 0;
 let computerScore = 0;
 let result = document.createElement("p");
 result.setAttribute("id", "result");
+result.style.textAlign = "center";
 let containerQuery = document.querySelector(".container");
 containerQuery.appendChild(result);
 let resultOutput = document.querySelector("#result");
@@ -31,10 +32,10 @@ let play = (e, computerC) => {
     }
     if(playerScore == 5 || computerScore == 5){
         if(playerScore > computerScore){
-            resultOutput.textContent = "Player Won"
+            resultOutput.textContent = "Player Won The Game"
         }
         else{
-            resultOutput.textContent = "Computer Won"
+            resultOutput.textContent = "Computer Won The Game"
         }
         playerScore = 0;
         computerScore = 0;

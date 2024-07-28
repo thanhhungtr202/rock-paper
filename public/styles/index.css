@@ -1,0 +1,22 @@
+.body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    margin: 300px 400px;
+    padding: 50px 50px;
+    background-color: beige;
+}
+.selections{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.choice{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 30px 30px;
+}
